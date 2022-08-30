@@ -1,0 +1,35 @@
+.matchBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+.username {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.userSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill {
+    margin: auto;
+    font-size: 16px;
+}
+
+.user_skills_to_learn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleText {
+    font-weight: bold;
+    font-size: 24px;
+}

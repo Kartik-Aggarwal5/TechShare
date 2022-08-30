@@ -1,0 +1,198 @@
+body {
+    background-color: #3B3262;
+}
+.centerInfoDiv {
+    position:absolute;
+    width: 500px;
+    height: 650px;
+    left: 33%;
+    top: 5%;
+    background-color: white;
+  }
+
+.contents{
+    position: absolute;
+    left: -16%;
+    top: 2%;
+}
+.logo {
+    position: absolute;
+    width: 526px;
+    height: 115px;
+    left: 250px;
+    top: 50px;
+    
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    
+    /* Navy Blue */
+    
+    color: #0D1321;
+}
+
+.createAccount {
+    position: absolute;
+    width: 331px;
+    height: 87px;
+    left: 220px;
+    top: 160px;
+
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+
+    /* Navy Blue */
+
+    color: #0D1321;
+
+    opacity: 0.9;
+}
+
+.usernameAndPassword {
+    position: absolute;
+    width: 331px;
+    height: 87px;
+    left: 150px;
+    top: 300px;
+}
+
+.usernameTitle {
+    
+    position: absolute;
+    width: 149px;
+    height: 32px;
+    
+
+    font-family: 'Rounded Mplus 1c';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.6154px;
+    line-height: 20px;
+
+    /* Purp */
+
+    color: #AAA1C8;
+}
+
+.passwordTitle {
+    
+    position: absolute;
+    width: 149px;
+    height: 32px;
+    top: 100px;
+
+    font-family: 'Rounded Mplus 1c';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.6154px;
+    line-height: 20px;
+
+    /* Purp */
+
+    color: #AAA1C8;
+}
+
+
+.userLogo {
+    position: absolute;
+    width: 23px;
+    height: 28px;
+    
+
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18.1539px;
+    line-height: 21px;
+
+    /* Purp */
+
+    color: #AAA1C8;
+
+}
+
+.underlineText1 {
+
+position: absolute;
+width: 367px;
+height: 2px;
+top:50px;
+
+
+/* Purp */
+
+background: #AAA1C8;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.underlineText2 {
+
+    position: absolute;
+    width: 367px;
+    height: 2px;
+    top:150px;
+
+    
+    /* Purp */
+    
+    background: #AAA1C8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+
+    .passwordInput{
+        top:150px;
+    }
+    .emailInput{
+        top:150px;
+    }
+
+    input[type=text] {
+        border:none;
+        width: 200%;
+        padding-top: 8%;
+        font-family: 'Rounded Mplus 1c';
+        font-style: normal;
+        
+    
+        /* Purp */
+    
+        color: #443770;
+
+    }
+
+    input[type=password] {
+        border:none;
+        width: 200%;        
+        padding-top: 8%;
+        font-family: 'Rounded Mplus 1c';
+        font-style: normal;
+        
+    
+        /* Purp */
+    
+        color: #443770;
+    }
+
+    button {
+        position: absolute;
+        width: 368px;
+        height: 35px;
+      
+        /* Purp */
+
+        background: #AAA1C8;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 1.13462px;
+        top: 160px;
+
+    font-family: 'Rounded Mplus 1c';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.6154px;
+    line-height: 20px;
+    color: white;
+    }

@@ -1,0 +1,76 @@
+.wrapper-signin {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 100%;
+    padding: 0px;
+  }
+  
+  .separator-signin {
+    height: 55px;
+  }
+  .content {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: #ffffff !important;
+    border-radius: 0rem !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    width: 500px !important;
+    height: 500px !important;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 5px 5px 30px 11px rgba(0, 0, 0, 0.26); */
+  }
+  
+  .title {
+    font-size: 36px !important;
+    font-family: Source Sans Pro;
+    font-weight: 1000 !important;
+    color: #0D1321;
+  }
+  
+  .welcome {
+    font-size:24px;
+    font-family: Source Sans Pro;
+    color: #0D1321
+  }
+  
+  .form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:10% !important;
+  }
+  
+  .subtext {
+    font-size: 12px;
+    margin-top: 5%;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .submitButton {
+    background-color: #e0eec6 !important;
+    color: black !important;
+    border-color: white !important;
+    font-family: "Montserrat", sans-serif;
+  }
+  .field {
+    width: 20vw;
+  }
+  
+  .warning {
+    color: red;
+  }
+  
+  .secondry-font {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .kindling {
+    margin-top:100px;
+    width:500px;
+    height:500px;
+  }
